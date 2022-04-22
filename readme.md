@@ -1,7 +1,7 @@
 ### VSCode extensions
 Quokka.js
 - F1 
-- quokka.js: Current on File
+- quokka.js: Start on Current File
 
 
 

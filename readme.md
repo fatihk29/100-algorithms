@@ -5,5 +5,5 @@ Quokka.js
 
 
 
-## inpspired by 
+## inspired by 
 https://github.com/PizzaPokerGuy/100AlgorithmsChallenge

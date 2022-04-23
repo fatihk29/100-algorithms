@@ -1,9 +1,8 @@
 function addBorder(input: string[]): any {
-  let wall = "*".repeat(input[0].length+2);
+  let border = "*".repeat(input[0].length + 2);
 
-  input.unshift(wall);
-  input.push(wall);
-
+  input.unshift(border);
+  input.push(border);
 
   return input;
 }

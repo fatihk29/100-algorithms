@@ -1,9 +1,10 @@
-### VSCode extensions
+## VSCode extensions
+
 Quokka.js
-- F1 
+
+- F1
 - quokka.js: Start on Current File
 
+## inspired by
 
-
-## inspired by 
 https://github.com/PizzaPokerGuy/100AlgorithmsChallenge

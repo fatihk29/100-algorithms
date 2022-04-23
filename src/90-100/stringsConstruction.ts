@@ -14,7 +14,7 @@ function stringsConstruction(a: string, b: string): number {
   return Math.min(...counts);
 }
 
-function getAlphabetCount(word: string) {
+function getAlphabetCount(word: string): object {
   const chars = word.split("");
   const alphabetCount = {};
 

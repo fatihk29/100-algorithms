@@ -13,7 +13,6 @@
 
 function isCaseInsensitivePalindrome(inputStr: string): boolean {
   if (inputStr.length <= 1) return true;
-
   const lowerCaseStr = inputStr.toLowerCase();
 
   return lowerCaseStr === lowerCaseStr.split("").reverse().join("");

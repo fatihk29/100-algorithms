@@ -7,9 +7,9 @@ Quokka.js
 - F1
 - quokka.js: Start on Current File
 
-## inspired by
-
-https://github.com/PizzaPokerGuy/100AlgorithmsChallenge
+## Inspired by
+  credit Dylan Israel
+  https://github.com/PizzaPokerGuy/100AlgorithmsChallenge
 
 ### some interview questions
 

@@ -9,17 +9,18 @@
   and v = 42, the output should be sumOfTwo(a, b, v) = true
 
   Hints 
-   - hasOwnProperty
+  - hasOwnProperty
 */
 
-function sumOfTwo(firstInp: number[], secondinp: number[], v: number): boolean {
+function sumOfTwo(first: number[], second: number[], total: number): boolean {
   let hashMap = {};
-  for (let num of firstInp) {
-    const difference = v - num;
-    hashMap[difference] = difference;
+  for (let num of first) {
+    const difference = total - num;
+    hashMap[difference] = 0;
   }
+  console.log("hashMap", hashMap);
 
-  for (let num of secondinp) {
+  for (let num of second) {
     if (hashMap.hasOwnProperty(num)) {
       return true;
     }
@@ -29,3 +30,7 @@ function sumOfTwo(firstInp: number[], secondinp: number[], v: number): boolean {
 }
 
 console.log(sumOfTwo([1, 2, 3], [10, 20, 30, 40], 42));
+console.log(sumOfTwo([7, 8, 9], [43, 20, 30, 40], 50));
+
+// my solution
+function sumOfTwoN(first, second, total) {}
